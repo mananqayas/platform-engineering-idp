@@ -10,7 +10,7 @@ def details():
     return jsonify({
         'time': datetime.datetime.now().strftime("%I:%M:%S%p on %B %d, %Y"),
         'hostname': socket.gethostname(),
-        'message': 'ArgoCD deployment v8'
+        'message': 'ArgoCD deployment v9'
     })
 @app.route("/api/v1/healthz")
 def health():
