@@ -1,0 +1,10 @@
+site_name: 'python-app'
+site_description: 'Main documentation for the python-app'
+repo_url: https://github.com/mananqayas/platform-engineering-idp
+edit_url: edit/main/docs
+
+plugins:
+  - techdocs-core
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
